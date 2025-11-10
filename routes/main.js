@@ -6,4 +6,7 @@ router.get('/', homeController.getIndex)
 
 router.get('/sign-UP', homeController.getSignIn)
 
+router.post('/createTodo', homeController.createTodo)
+
+
 module.exports = router
